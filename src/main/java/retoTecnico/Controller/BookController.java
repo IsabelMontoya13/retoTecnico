@@ -4,11 +4,10 @@ import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 import retoTecnico.Entity.Book;
 import retoTecnico.Service.BookService;
-
 import java.util.List;
 
 @RestController
-@RequestMapping("/api/libro")
+@RequestMapping("/libro")
 public class BookController {
 
     @Autowired
